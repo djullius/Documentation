@@ -1,18 +1,18 @@
-# Installing ZeroNet
+# Installer ZeroNet
 
-* Download ZeroBundle package: [Microsoft Windows](https://github.com/HelloZeroNet/ZeroNet-win/archive/dist/ZeroNet-win.zip), [Apple macOS](https://github.com/HelloZeroNet/ZeroNet-mac/archive/dist/ZeroNet-mac.zip), [Linux 64bit](https://github.com/HelloZeroNet/ZeroBundle/raw/master/dist/ZeroBundle-linux64.tar.gz), [Linux 32bit](https://github.com/HelloZeroNet/ZeroBundle/raw/master/dist/ZeroBundle-linux32.tar.gz)
-* Unpack anywhere
-* Run `ZeroNet.exe` (win), `ZeroNet(.app)` (macOS), `ZeroNet.sh` (linux)
+* Télécharger ZeroBundle version: [Microsoft Windows](https://github.com/HelloZeroNet/ZeroNet-win/archive/dist/ZeroNet-win.zip), [Apple macOS](https://github.com/HelloZeroNet/ZeroNet-mac/archive/dist/ZeroNet-mac.zip), [Linux 64bit](https://github.com/HelloZeroNet/ZeroBundle/raw/master/dist/ZeroBundle-linux64.tar.gz), [Linux 32bit](https://github.com/HelloZeroNet/ZeroBundle/raw/master/dist/ZeroBundle-linux32.tar.gz)
+* décompressé tout le fichier zip
+* Commande pour démarré : `ZeroNet.exe` (win), `ZeroNet(.app)` (macOS), `ZeroNet.sh` (linux)
 
-### Manual install for Debian Linux
+### Manual d'installations pour Debian Linux
 
 * `sudo apt-get update`
 * `sudo apt-get install msgpack-python python-gevent`
 * `wget https://github.com/HelloZeroNet/ZeroNet/archive/master.tar.gz`
 * `tar xvpfz master.tar.gz`
 * `cd ZeroNet-master`
-* Start with `python zeronet.py`
-* Open http://127.0.0.1:43110/ in your browser
+* Commande pour lancer : `python zeronet.py`
+* Dans le navigateur web : http://127.0.0.1:43110/
 
 ### [Vagrant](https://www.vagrantup.com/)
 
